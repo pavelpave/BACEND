@@ -1,0 +1,17 @@
+{% extends "./defaultTemplates.html" %}
+
+
+
+
+{% block footer %}
+    <h1 class="test">sadasd</h1>
+    <p>
+        {{   name  }}
+    </p>
+    <!-- условные конструкции -->
+    {% for namess in nam %}
+         <p>
+             {{namess}}
+         </p>
+    {% endfor %}
+{% endblock %}
